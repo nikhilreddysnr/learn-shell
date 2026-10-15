@@ -3,7 +3,7 @@
 echo "Please ENter Marks"
 read MARKS
 
-if [ $MARKS -lt 33]; then
+if [ $MARKS -lt 33 ]; then
     echo "You are Failed"
 elif [ $MARKS -ge 33 ] && [ $MARKS -lt 50 ]; then
     echo "You are Passed with C Grade"
