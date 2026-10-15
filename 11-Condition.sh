@@ -9,4 +9,9 @@ fi
 
 echo "Proceeding...."
 
-dnf install nginx -y
+dnf install nginxxxx -y
+
+echo "Still Proceeding"
+
+
+dnf install mysqllll -y
