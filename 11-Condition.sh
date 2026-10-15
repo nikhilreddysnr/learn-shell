@@ -9,7 +9,7 @@ fi
 
 echo "Proceeding...."
 
-dnf install nginxxxx -y
+dnf install nginx -y
 
 if [ $? -ne 0 ]; then
     echo "Error in installing nginx"
@@ -20,7 +20,7 @@ fi
 echo "Still Proceeding"
 
 
-dnf install mysqllll -y
+dnf install mysql -y
 
 if [ $? -ne 0 ]; then
     echo "Error in installing mysql"
