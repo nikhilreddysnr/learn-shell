@@ -10,3 +10,11 @@ echo "Who is running this script: $USER"
 echo "Where is this script running: $PWD"
 echo "home directory of the user running this script: $HOME"
 echo "The process ID of the current script is: $$"
+
+sleep 10 &
+
+echo "The process ID of the last background command is: $!"
+wait $!
+echo "Current Line number of this script is: $LINENO"
+echo "The exit status of the last command is: $?"
+echo "Total Time taken to execute this script is: $SECONDS seconds"
