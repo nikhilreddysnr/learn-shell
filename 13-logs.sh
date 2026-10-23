@@ -1,7 +1,7 @@
 #!/bin/bash
 
 logs_Folder="/var/log/shell-practice"
-log_File="$logs_Folder/${0}.log"
+log_File="${logs_Folder}/${0}.log"
 userId=$(id -u)
 
 if [ $userId -ne 0 ]; then
