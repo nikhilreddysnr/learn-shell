@@ -28,3 +28,5 @@ if [ $? -ne 0 ]; then
 else
     echo "Mysql installed successfully"
 fi  
+
+echo "Still Proceeded".
