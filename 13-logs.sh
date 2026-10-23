@@ -11,7 +11,7 @@ fi
 
 echo "Proceeding...."
 
-mkdir -p logs_Folder
+mkdir -p $logs_Folder
 
 validate()
 {
