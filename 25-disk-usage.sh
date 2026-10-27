@@ -15,4 +15,4 @@ do
 
 done <<< "$disk_usage"
 
-echo "$message"
+echo -e "$message"
