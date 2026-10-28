@@ -11,7 +11,7 @@ do
 
     if [ "$usage" -ge "$usage_threshold" ]; then
 
-        message+="Disk Usage threshold exceeded:$usage :$partition \n"
+        message+="Disk Usage threshold exceeded:$usage :$partition <br>"
     fi
 
 done <<< "$disk_usage"
